@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax1{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    background-image: url('/images/mountan.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 50px;
+    background-attachment: fixed;
+}
+
+.scrllDown{
+    border: 1px solid black;
+    height: 15%;
+    width: 20%;
+    background-color: black;
+    color: aliceblue;
+}
+
+.scrllDown p {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 7%;
+    text-transform: capitalize;
+}
+
+.context1{
+    height: 50vh;
+}
+
+.context1 h3{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.context1 p{
+    line-height: 25px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.parallax2{
+    height: 60vh;
+    width: 100%;
+    background-image: url('/images/pic2.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 50px;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.context2{
+    height: 15vh;
+    background-color: slategrey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.context2 p {
+    margin-left: 5%;
+    
+}
+
+.parallax3{
+    height: 70vh;
+    width: 100%;
+    background-image: url('/images/bozhin-karaivanov-rUzfrgtDrTk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 50px;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    
+}
+
+.context3{
+    height: 15vh;
+    background-color: slategrey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.context3 p {
+    margin-left: 5%;
+    
+}
+
+.parallax4{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/antony-matthews-RfxzRHzNXPU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 50px;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+
+
+}
+
+.parallax4 .text{
+    color: black;
+    font-size: 3rem;
+    border: 5px solid black;
+    padding: 5%;
+}
+
+.parallax3 .text{
+    color: black;
+    font-size: 3rem;
+    border: 5px solid black;
+    padding: 5%;
+    width: 30%;
+}
+.parallax2 .text{
+    color: black;
+    font-size: 3rem;
+    border: 5px solid black;
+    padding: 5%;
+    width: 30%;
+}
